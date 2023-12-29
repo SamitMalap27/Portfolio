@@ -484,26 +484,15 @@ footer {
 }
 
 
-/* testing css for small screens */
+/******************** CSS FOR SMALL SCREEN  ************** */
 
 @media only screen and (max-width:600px) {
 
-    html{
-        width:400px ;
-        overflow: hidden;
-    }
-    body{
-        background: #ffffff;
-        width: 419px;
-    }
-    nav{
-        width: 419px;
-    }
     nav ul {
         position: absolute;
         right: 10px;
         padding-top: 120px;
-        width: 45%;
+        width: 42%;
         height: 300px;
         background: #0038f0;
         z-index: 1000;
@@ -531,7 +520,7 @@ footer {
     #cross {
         position: relative;
         top: -170px;
-        left: 130px;
+        left: 150px;
     }
 
     #menu {
@@ -546,7 +535,6 @@ footer {
         font-size: 30px;
         position: relative;
         /* left: 10px; */
-        width: 419px;
     }
 
     .header-text h1 {
@@ -561,7 +549,7 @@ footer {
         height: 350px;
         width: auto;
         position: relative;
-        left: 150px;
+        left: 20px;
         top: -655px;
     }
 
@@ -572,23 +560,21 @@ footer {
     }
 
     #header {
-        width: 419px;
-        background: green;
+        width: 700px;
     }
 
     .container {
         padding: 0 0 10px 0;
         overflow: hidden;
-        width: 419px;
     }
 
     .header-text {
         padding-left: 10%;
-        width: 419px;
+        width: 700px;
     }
 
     .myback {
-        width: 419px;
+        width: 700px;
         padding-left: 45px;
         padding-top: 85px;
         z-index: 900;
@@ -603,7 +589,7 @@ footer {
     }
 
     .sbox {
-        width: 80%;
+        width: 70%;
     }
 
     #about h1 {
@@ -611,7 +597,7 @@ footer {
     }
 
     #about p {
-        width: 419px;
+        width: 360px;
         height: auto;
         margin: 0;
         margin-left: 35px;
@@ -624,7 +610,7 @@ footer {
 
     .container3 {
         display: block;
-        width: 419px;
+        width: 700px;
         height: auto;
     }
     .card{
@@ -633,22 +619,19 @@ footer {
     .grid-container {
         padding: 10px 15px;
         display: block;
-        width: 419px;
+        width: 700px;
         background:lightblue;
     }
 
     .first-div h1{
         margin-bottom: 40px;
-        width: 419px;
     }
     .first-div{
         margin-bottom: 40px;
         padding-left: 20px;
-        width: 419px;
     }
     .second-div{
         padding-left: 20px;
-        width: 419px;
     }
     form input,
     textarea {
@@ -671,4 +654,3 @@ footer {
         text-align: center;
     }
 }
-
